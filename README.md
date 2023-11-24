@@ -4,7 +4,7 @@ If our data fortunately contribute to your research, please consider cite us at 
 
 # Introduction on the directory
 
-## vasp_data
+## JSON_metadata
 
 is the folder containing the data involved of DFT calculation using Vienna Ab-initio Simulation Package (VASP). The subfolder are the materials, and contianing json file of each calculated structures.
 
