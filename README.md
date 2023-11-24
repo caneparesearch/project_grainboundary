@@ -1,5 +1,6 @@
-# project_grainboundary
-data for the grain boundary paper (link)
+# Repository Descrption
+This repository contains the data of the paper *add link*
+If our data fortunately contribute to your research, please consider cite us at *add doi*
 
 # Introduction on the directory
 
@@ -8,7 +9,7 @@ data for the grain boundary paper (link)
 is the folder containing the data involved of DFT calculation using Vienna Ab-initio Simulation Package (VASP). The subfolder are the materials, and contianing json file of each calculated structures.
 
 ### miller_shift.json
-This is the json file containing the original data for the <miller> surface or grain boundary.
+This is the json file containing the original data for the  surface or grain boundary.
 For slab model it contains
 - final_energy: calculated total energy of this structure
 - gamma: surface energy in Jouls per meter squared
