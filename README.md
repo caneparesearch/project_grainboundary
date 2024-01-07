@@ -15,7 +15,7 @@ Folder **JSON_metadata** contains data extracted from the density functional the
 ### File: miller_shift.json
 The **miller_shift.json** is a JSON file containing the original data of the surface structure or the grain boundary structure.
 For slab models, miller_shift.json contains the following quantities:
-- final_energy: the calculated DFT total energy of this structure,
+- final_energy: the calculated DFT total energy of this structure in eV,
 - gamma: the surface energy in J m<sup>-2</sup>,
 - work_function: the work function of this slab model if calculated in eV,
 - ionization_potentail: the ionization potential of the slab model in eV, if calculated,
@@ -28,7 +28,7 @@ For slab models, miller_shift.json contains the following quantities:
 - slab_thickness: thickness of this slab in &Aring;.
 
 For grain boundary models, the **miller_shift.json** file contains the following quantities:
-- final_energy: the calculated DFT total energy of this structure,
+- final_energy: the calculated DFT total energy of this structure in eV,
 - sigma: the grain boundary excess energy in J m<sup>-2</sup>,
 - incar_parameters: the VASP, INCAR file used to relax used to relax the grain boundary model,
 - relaxed_structures: the relaxed structure in the format of a JSON dictionary. This file can be imported by [pymatgen](https://pymatgen.org),  
