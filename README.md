@@ -15,24 +15,24 @@ Folder **JSON_metadata** contains data extracted from the density functional the
 ### File: miller_shift.json
 The **miller_shift.json** is a JSON file containing the original data of the surface structure or the grain boundary structure.
 For slab models, miller_shift.json contains the following quantities:
-- final_energy: the calculated DFT total energy of this structure
-- gamma: the surface energy in J m<sup>-2</sup>
-- work_function: the work function of this slab model if calculated in eV
-- ionization_potentail: the ionization potential of the slab model in eV, if calculated
-- electron_affinity: the electron affinity of the slab model in eV, if calculated
-- is_stochiometric: if the slab model is stochiometric or not
-- incar_parameters: the VASP, INCAR file used to relax the slab model
-- relaxed_structures: the relaxed structure in the format of a JSON dictionary. This file can be imported by [pymatgen](https://pymatgen.org) 
-- formula: the chemical formula of this structure
-- bandgap: bandgap in eV of this structure using GGA
-- slab_thickness: thickness of this slab in &Aring;
+- final_energy: the calculated DFT total energy of this structure,
+- gamma: the surface energy in J m<sup>-2</sup>,
+- work_function: the work function of this slab model if calculated in eV,
+- ionization_potentail: the ionization potential of the slab model in eV, if calculated,
+- electron_affinity: the electron affinity of the slab model in eV, if calculated,
+- is_stochiometric: if the slab model is stochiometric or not,
+- incar_parameters: the VASP, INCAR file used to relax the slab model,
+- relaxed_structures: the relaxed structure in the format of a JSON dictionary. This file can be imported by [pymatgen](https://pymatgen.org), 
+- formula: the chemical formula of this structure,
+- bandgap: bandgap in eV of this structure using GGA,
+- slab_thickness: thickness of this slab in &Aring;.
 
 For grain boundary models, the **miller_shift.json** file contains the following quantities:
-- final_energy: the calculated DFT total energy of this structure
-- sigma: the grain boundary excess energy in J m<sup>-2</sup>
-- incar_parameters: the VASP, INCAR file used to relax used to relax the grain boundary model. 
-- relaxed_structures: the relaxed structure in the format of a JSON dictionary. This file can be imported by [pymatgen](https://pymatgen.org)  
-- formula: chemical formula of this structure
-- bandgap: bandgap in eV of this structure using GGA
+- final_energy: the calculated DFT total energy of this structure,
+- sigma: the grain boundary excess energy in J m<sup>-2</sup>,
+- incar_parameters: the VASP, INCAR file used to relax used to relax the grain boundary model,
+- relaxed_structures: the relaxed structure in the format of a JSON dictionary. This file can be imported by [pymatgen](https://pymatgen.org),  
+- formula: chemical formula of this structure,
+- bandgap: bandgap in eV of this structure using GGA.
 
 
