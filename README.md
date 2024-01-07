@@ -1,5 +1,7 @@
 # Repository Description
-This repository contains the data of the paper of W. Xie *et al.*, **Effects of Grain Boundaries and Surfaces on Electronic and Mechanical Properties of Solid Electrolytes** *Adv. Energy Mater.*,  (2023), DOI: [10.1002/aenm.202304230](https://doi.org/10.1002/aenm.202304230)
+This repository contains the data of the paper of W. Xie *et al.*, **Effects of Grain Boundaries and Surfaces on Electronic and Mechanical Properties of Solid Electrolytes** *Adv. Energy Mater.*,  (2023), DOI: [10.1002/aenm.202304230](https://doi.org/10.1002/aenm.202304230) or *via* arXiv DOI: [
+https://doi.org/10.48550/arXiv.2312.05294](
+https://doi.org/10.48550/arXiv.2312.05294).
 
 If our data and methodology contribute to your research, you're kindly asked to cited the manuscript mentioned above.
 For additional information please e-mail us at the address found at [caneparesearch.org](https://caneparesearch.org)
