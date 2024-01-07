@@ -35,4 +35,8 @@ For grain boundary models, the **miller_shift.json** file contains the following
 - formula: chemical formula of this structure,
 - bandgap: bandgap in eV of this structure using GGA.
 
+## Folder: CIF_final_structure
+
+Folder **CIF_final_structure** contains the computed structures of slab models and grain boundaries in the Crystallographic Information File, also known as CIF.
+
 
