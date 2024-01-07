@@ -6,7 +6,7 @@ https://doi.org/10.48550/arXiv.2312.05294).
 If our data and methodology contribute to your research, you're kindly asked to cited the manuscript mentioned above.
 For additional information please e-mail us at the address found at [caneparesearch.org](https://caneparesearch.org)
 
-# Introduction on the directory
+# How to Navigate Folders and Files and Important Quantities
 
 ## Folder: JSON_metadata
 
