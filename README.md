@@ -1,33 +1,42 @@
-# Repository Descrption
-This repository contains the data of the paper *add link*
-If our data fortunately contribute to your research, please consider cite us at *add doi*
+# Repository Description
+This repository contains the data of the paper of W. Xie *et al.*, **Effects of Grain Boundaries and Surfaces on Electronic and Mechanical Properties of Solid Electrolytes** *Adv. Energy Mater.*,  (2023), DOI: [10.1002/aenm.202304230](https://doi.org/10.1002/aenm.202304230) or *via* arXiv DOI: [
+https://doi.org/10.48550/arXiv.2312.05294](
+https://doi.org/10.48550/arXiv.2312.05294).
 
-# Introduction on the directory
+If our data and methodology contribute to your research, you're kindly asked to cited the manuscript mentioned above.
+For additional information please e-mail us at the address found at [caneparesearch.org](https://caneparesearch.org)
 
-## JSON_metadata
+# How to Navigate Folders and Files and Important Quantities
 
-is the folder containing the data involved of DFT calculation using Vienna Ab-initio Simulation Package (VASP). The subfolder are the materials, and contianing json file of each calculated structures.
+## Folder: JSON_metadata
 
-### miller_shift.json
-This is the json file containing the original data for the  surface or grain boundary.
-For slab model it contains
-- final_energy: calculated total energy of this structure
-- gamma: surface energy in Jouls per meter squared
-- work_function: work function of this slab model if calculated
-- ionization_potentail: ionization potential of this slab model if calculated
-- electron_affinity: electron affinity of this slab model if calculated
-- is_stochiometric: whether the slab model is stochiometric or not
-- incar_parameters: the INCAR paramter used to relax the slab model
-- relaxed_structures: the relaxed structure in the format of dictionary, and can be read by pymatgen
-- formula: chemical formula of this structure
-- bandgap: bandgap of this structure using GGA
-- slab_thickness: thickness of this slab in Angstrom
+Folder **JSON_metadata** contains data extracted from the density functional theory (DFT) calculations, using the [Vienna Ab-initio Simulation Package](https://vasp.at) (VASP). Data is organized in subfolders, one per each material consider. Each folder contains a JSON file for each structure computed.
 
-For grain boundary, it contains:
-- final_energy: calculated total energy of this structure
-- sigma: grain boundary excess energy in Jouls per meter squared
-- incar_parameters: the INCAR paramter used to relax the slab model
-- relaxed_structures: the relaxed structure in the format of dictionary, and can be read by pymatgen
-- formula: chemical formula of this structure
-- bandgap: bandgap of this structure using GGA
+### File: miller_shift.json
+The **miller_shift.json** is a JSON file containing the original data of the surface structure or the grain boundary structure.
+For slab models, miller_shift.json contains the following quantities:
+- final_energy: the calculated DFT total energy of this structure,
+- gamma: the surface energy in J m<sup>-2</sup>,
+- work_function: the work function of this slab model if calculated in eV,
+- ionization_potentail: the ionization potential of the slab model in eV, if calculated,
+- electron_affinity: the electron affinity of the slab model in eV, if calculated,
+- is_stochiometric: if the slab model is stochiometric or not,
+- incar_parameters: the VASP, INCAR file used to relax the slab model,
+- relaxed_structures: the relaxed structure in the format of a JSON dictionary. This file can be imported by [pymatgen](https://pymatgen.org), 
+- formula: the chemical formula of this structure,
+- bandgap: bandgap in eV of this structure using GGA,
+- slab_thickness: thickness of this slab in &Aring;.
+
+For grain boundary models, the **miller_shift.json** file contains the following quantities:
+- final_energy: the calculated DFT total energy of this structure,
+- sigma: the grain boundary excess energy in J m<sup>-2</sup>,
+- incar_parameters: the VASP, INCAR file used to relax used to relax the grain boundary model,
+- relaxed_structures: the relaxed structure in the format of a JSON dictionary. This file can be imported by [pymatgen](https://pymatgen.org),  
+- formula: chemical formula of this structure,
+- bandgap: bandgap in eV of this structure using GGA.
+
+## Folder: CIF_final_structure
+
+Folder **CIF_final_structure** contains the computed structures of slab models and grain boundaries in the Crystallographic Information File, also known as CIF.
+
 
